@@ -1,5 +1,5 @@
 name    'krakatoa-opensips'
-version '0.0.1'
+version '0.0.2'
 source 'https://github.com/krakatoa/puppet-opensips'
 author 'Fernando Dario Alonso'
 license 'Apache License, Version 2.0'
