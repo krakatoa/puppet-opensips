@@ -54,7 +54,7 @@ class opensips(
 
   apt::source { 'opensips':
     location => "http://apt.opensips.org/",
-    release => "${opensips_pkg_version}",
+    release => "stable${opensips_pkg_version}",
     repos => "main",
     include_src => false
   }
